@@ -1,0 +1,21 @@
+/*================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+//unread notification background
+li.ps-container.scrollable-container.media-list.scroll-area.ps.ps--active-y .media.unread {
+  background-color: #D7DBDD ;
+}
+li.ps-container.scrollable-container.media-list.scroll-area.ps.ps--active-y {
+  width: 400px;
+  height: 200px;
+}
+.icon-trash-notifications {
+  position: relative;
+  top: 0;
+  right: 0;
+}

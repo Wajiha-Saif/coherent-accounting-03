@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+}
+
+#loading-bg {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: block;
+  position: absolute;
+}
+.loading-logo {
+  position: absolute;
+  left: calc(50% - 45px);
+  top: 40%;
+}
+.loading {
+  position: absolute;
+  left: calc(50% - 35px);
+  top: 50%;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+}
+.loading .effect-1,
+.loading .effect-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 3px solid transparent;
+  border-left: 3px solid rgba(121, 97, 249, 1);
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.loading .effect-1 {
+  animation: rotate 1s ease infinite;
+}
+.loading .effect-2 {
+  animation: rotateOpacity 1s ease infinite 0.1s;
+}
+.loading .effect-3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 3px solid transparent;
+  border-left: 3px solid rgba(121, 97, 249, 1);
+  -webkit-animation: rotateOpacity 1s ease infinite 0.2s;
+  animation: rotateOpacity 1s ease infinite 0.2s;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.loading .effects {
+  transition: all 0.3s ease;
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+@keyframes rotateOpacity {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 0.1;
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+    opacity: 1;
+  }
+}
+.button-position-right {
+  right: 0px;
+  top: 0;
+  position: absolute;
+}
+.company-info-btn {
+  margin: 2px 2px;
+}
+.company-info-btn button#dropdown-4__BV_toggle_ {
+  width: 20px;
+  height: 25px;
+}
+.company-info-btn button#dropdown-4__BV_toggle_::after {
+  background-image: none;
+  content: "+";
+  height:25px;
+  width:20px;
+  font-size:20px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  font-weight:bold;
+  font-family:courier;
+  position: absolute;
+  left: 5px;
+}
+.body-0.card-body {
+  margin-left: 0;
+}
+.company-info-table th {
+  width: 150px;
+}
+.hover-img {
+  transition: transform .4s; /* Animation */
+}
+.hover-img:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.download-icon {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}

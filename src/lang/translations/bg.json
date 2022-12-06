@@ -1,0 +1,98 @@
+{
+	"app_logo_title": "Coherent Accounting",
+	"lbl": {
+		"login": "Вход",
+		"register": "Register",
+		"sign_up": "Sign Up",
+		"pricing": "Цени",
+		"questions": "Въпроси",
+		"videos": "Видео",
+		"prices": "Цени",
+		"free_digital_invoices": "Безплатни дигитални фактури"
+	},
+	"login": {
+		"title": "Добре дошли в Coherent Accounting! 👋",
+		"subtitle": "Please sign-in to your account and start the adventure",
+		"lbl_email": "Email",
+		"email_placeholder": "john@example.com",
+		"lbl_password": "парола",
+		"lnk_forget_password": "забравенна парола?",
+		"remember": "Запомни ме",
+		"pre_signup_link_txt": "Нов в платформата?",
+		"signup_link_txt": "Създай акаунт",
+		"sign_in": "Sign in"
+	},
+	"register": {
+		"title": "Adventure starts here 🚀",
+		"subtitle": "Make your app management easy and fun!",
+		"lbl_f_name": "Име",
+		"lbl_l_name": "Фамилия",
+		"lbl_c_accountType": "Акаунт тип",
+		"lbl_c_name": "Име на фирма",
+		"lbl_c_address": "Адрес на фирма",
+		"lbl_c_registrationNumber": "ЕИК",
+		"lbl_email": "Email",
+		"email_placeholder": "john@example.com",
+		"lbl_password": "Password",
+		"lbl_country": "Държава",
+		"country_placeholder": "Моля изберете държава",
+		"i_agree_to": "Съгласявам се",
+		"lbl_privacy_term_link": "privacy policy & terms",
+		"lbl_submit": "Sign up",
+		"have_account": "Вече имате акаунт?",
+		"lbl_login_link": "Вече имате акаунт?"
+	},
+	"forget": {
+		"title": "Забравена парола?",
+		"subtitle": "Въведете имейл и ние ще Ви изпратим линк за промяна на паролата",
+		"lbl_email": "Email",
+		"email_placeholder": "john@example.com",
+		"lbl_btn_submit": "Линк",
+		"login_link": "Back to login"
+	},
+	"reset_password": {
+		"title": "Смяна на парола 🔒",
+		"description": "Вашата нова парола трябва да бъде различна от паролата в момента",
+		"set_new_password": "Въведи нова парола"
+	},
+	"reset_password_email": {
+		"email_sent_successfully": "Email Sent Successfully.",
+		"description": "We have sent a reset password email at your entered registered email address. Please click on the 'RESET PASSWORD' on your email to proceed."
+	},
+	"navbar": {
+		"login": "Вход",
+		"signup": "Регистраия",
+		"about": "За Нас",
+		"questions": "Въпроси",
+		"videos": "Видеа",
+		"prices": "Цени",
+		"free_digital_invoices": "Безплатни дигитални фактури"
+	},
+	"pricing": {
+		"title": "Нашите планове",
+		"description": " All plans include 40+ advanced tools and features to boost your product. Choose the best plan to fit your needs.",
+		"monthly": "Monthly",
+		"annually": "Annually",
+		"free": "Free",
+		"month": "month",
+		"year": "year",
+		"plan": "Your current plan",
+		"popular": "Popular",
+		"upgrade": "Upgrade"
+	},
+	"home": "Табло",
+	"app_logo_title": "Coherent Accounting",
+	"login": {
+		"title": "Добре дошли Coherent Accounting!",
+		"subtitle": "Please sign-in to your account and start the adventure",
+		"input_email": "Email",
+		"email_placeholder": "john@example.com"
+	},
+	"dashboard": "Табло",
+	"invoices": "Фактури",
+	"videos": "Видео",
+	"tickets": "Помощ",
+	"my-plans": "Моите планове",
+	"settings": "Настройки",
+	"contacts": "Контакти"
+}
